@@ -14,7 +14,7 @@ public class Ejercicio1 {
         int multiplicacion;
         multiplicacion = n1 * n2;
 
-        System.out.println("El resultado es: " + multiplicacion);
+        System.out.println("El resultado es " + multiplicacion);
 
         sc.close();
 
