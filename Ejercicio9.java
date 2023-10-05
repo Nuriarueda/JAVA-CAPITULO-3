@@ -9,10 +9,11 @@ public class Ejercicio9 {
 
         System.out.print("Introduce la altura del cono: ");
         int altura = sc.nextInt();
-        
+
+        int r2 = radio*radio;
         double PI = 3.1416;
 
-        double volumen = ((1*3)*PI*radio*radio*altura);
+        double volumen = ((1*3)*PI*r2*altura);
         System.out.println("El volumen del cono es: " + volumen);
         sc.close();
     }
